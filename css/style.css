@@ -2,15 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f0f2f5;
     color: #333;
 }
 
 header {
-    background-color: #0a1a40;
+    background-color: rgba(10, 26, 64, 0.85);
     color: white;
     padding: 1em;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
 }
 
 nav a {
@@ -24,8 +28,9 @@ nav a:hover {
 }
 
 .hero {
-    background-color: #e0e4f1;
-    padding: 2em;
+    background: url('../images/hero-bg.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 4em 2em;
     text-align: center;
 }
 
@@ -44,12 +49,6 @@ footer {
     bottom: 0;
 }
 
-form {
-    max-width: 500px;
-    margin: auto;
-    padding: 2em;
-    background-color: white;
-}
 
 input, textarea {
     width: 100%;
@@ -66,20 +65,15 @@ button {
 }
 
 button:hover {
-    background-color: #142b6f;
-}
-header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    background-color: #0066cc;
 }
 form {
     max-width: 500px;
     margin: 2em auto;
     padding: 2em;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
 }
 article {
     background-color: white;
@@ -91,14 +85,15 @@ article {
 }
 
 article:hover {
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    transform: translateY(-4px);
 }
 h2 {
-    animation: fadeIn 1s ease-in;
+    animation: fadeIn 0.8s ease;
 }
 
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
