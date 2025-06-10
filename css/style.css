@@ -11,6 +11,9 @@ header {
     color: white;
     padding: 1em;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav a {
@@ -44,12 +47,6 @@ footer {
     bottom: 0;
 }
 
-form {
-    max-width: 500px;
-    margin: auto;
-    padding: 2em;
-    background-color: white;
-}
 
 input, textarea {
     width: 100%;
@@ -67,11 +64,6 @@ button {
 
 button:hover {
     background-color: #142b6f;
-}
-header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 form {
     max-width: 500px;
