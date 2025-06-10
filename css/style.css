@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0a1a40;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #e0e4f1;
+    padding: 2em;
+    text-align: center;
+}
+
+.services {
+    padding: 2em;
+    background-color: white;
+}
+
+footer {
+    background-color: #0a1a40;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 2em;
+    background-color: white;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #0a1a40;
+    color: white;
+    padding: 0.7em 1.5em;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #142b6f;
+}
