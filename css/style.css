@@ -81,3 +81,16 @@ form {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 8px;
 }
+article {
+    background-color: white;
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 800px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+article:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
