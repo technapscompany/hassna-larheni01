@@ -1,9 +1,20 @@
+:root {
+    --color-navy: #0a1a40;
+    --color-accent: #0066cc;
+    --color-gray: #f0f2f5;
+    --color-text: #333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f2f5;
-    color: #333;
+    background-color: var(--color-gray);
+    color: var(--color-text);
 }
 
 header {
@@ -28,7 +39,7 @@ nav a:hover {
 }
 
 .hero {
-    background: url('../images/hero-bg.jpg') center/cover no-repeat;
+    background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
     color: #fff;
     padding: 4em 2em;
     text-align: center;
@@ -40,7 +51,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #0a1a40;
+    background-color: var(--color-navy);
     color: white;
     text-align: center;
     padding: 1em;
@@ -57,7 +68,7 @@ input, textarea {
 }
 
 button {
-    background-color: #0a1a40;
+    background-color: var(--color-navy);
     color: white;
     padding: 0.7em 1.5em;
     border: none;
@@ -65,7 +76,7 @@ button {
 }
 
 button:hover {
-    background-color: #0066cc;
+    background-color: var(--color-accent);
     background-color: #142b6f;
 }
 form {
